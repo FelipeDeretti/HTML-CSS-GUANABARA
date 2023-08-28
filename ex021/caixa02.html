@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body {
+        font-family: sans-serif;
+        background-color: gainsboro;
+        margin: 0px;
+    }
+
+    header {
+        background-color: wheat;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    nav {
+        background-color: navy;
+        padding: 3px;
+        /* PODEMOS CONFIGURAR O BOX-SHADOW PELO devtools no navegador*/
+        box-shadow: 3px 1px 2px 1px rgba(0, 0, 0, 0.411);
+    }
+
+    nav>a {
+        text-decoration: none;
+        color: pink;
+        font-weight: bold;
+        margin-right: 15px;
+    }
+
+    nav>a:hover {
+        text-decoration: underline;
+
+    }
+
+    main {
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    article {
+        background-color: lightblue;
+        padding: 5px;
+    }
+
+    article>aside {
+        background-color: rgba(72, 161, 161, 0.753);
+    }
+
+    footer {
+        background-color: black;
+        color: green;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis ab aspernatur architecto
+                    molestiae, minima eligendi eaque aliquam iusto in autem quos est modi dolorum qui, recusandae
+                    repellat tempora libero?</p>
+                <aside>
+                    <p>Artigo escrito por Jugao</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Felipe Deretti</p>
+    </footer>
+</body>
+
+</html>

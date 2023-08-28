@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquivos mp3</title>
+</head>
+
+<body>
+    <h1>Colocando arquivo de som</h1>
+    <p>Primeiro Jeito</p>
+    <audio src="midias/Dove Love - Quincas Moreira.mp3" controls autoplay></audio>
+    <!--MP3 WAV OGG-->
+    <p>Segundo jeito</p>
+    <audio preload="metadata" controls>
+        <source src="midias/Dove Love - Quincas Moreira.mp3" type="audio/mpeg">
+        <source src="midias/Dove Love - Quincas Moreira.wav" type="audio/wav">
+        <source src="midias/Dove Love - Quincas Moreira.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir aúdio. <a
+                href="midias/Dove Love - Quincas Moreira.mp3">Clique aqui para baixar os arquivos
+                MP3</a> </p>
+
+    </audio>
+
+</body>
+
+</html>

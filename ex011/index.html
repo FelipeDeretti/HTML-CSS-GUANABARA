@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alocando Vídeos</title>
+</head>
+
+<body>
+    <h1>Colocando vídeos</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video src="videos/paisagem.mp4" width="500px" height="400px" controls autoplay loop> </video>
+
+
+    <h1>Outro jeito de inserir vídeo</h1>
+    <video controls width="500px" height="400px">
+        <source src="videos/paisagem.mp4" type="video/mp4">
+        <source src="videos/paisagem.webm" type="video/webm">
+        <source src="videos/paisagem.ogv" type="video/ogv">
+        <p>Seu navegador não é compatível com nenhuma reprodução de vídeo</p>
+    </video>
+
+    <h1>Inserindo vídeos do youtube</h1>
+    <!--Incorporar do yt ou do Vimeo-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <h1>Inserindo vídeos do Vimeo</h1>
+
+    <iframe src="https://player.vimeo.com/video/140561159?h=a0c2e2f789&autoplay=1&loop=1" width="640" height="360"
+        frameborder="0" fullscreen picture-in-picture allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/140561159"></a> <a href="https://vimeo.com/joshschneideranimation"></a> <a
+            href="https://vimeo.com"></a>.</p>
+
+</body>
+
+</html>
